@@ -113,3 +113,12 @@ function gameOver(){
 
     removeBackgroundColorById(currentAlphabet)
 }
+
+<div id="container">
+<p>1</p>
+<p>2</p>
+<p>3</p>
+</div>
+
+const container= document.getElementById('container')
+console.log(container.children.length)
